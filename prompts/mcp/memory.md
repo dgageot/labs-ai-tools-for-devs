@@ -1,9 +1,7 @@
 ---
 mcp:
   - container:
-      image: mcp/filesystem:latest
-      command:
-        - .:
+      image: mcp/memory:latest
   - source:
       url: https://github.com/modelcontextprotocol/servers
 ---
